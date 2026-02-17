@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="section-header section-gallery">
+  <div class="section-inner">
+    <h1>Gallery</h1>
+    <p class="section-subtitle">Photographs from Tynwald Day and the Isle of Man</p>
+  </div>
+</div>
+
+<div class="page-content-wide">
+  {% if page.breadcrumbs %}
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span class="separator">›</span>
+    <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
+    {% for crumb in page.breadcrumbs %}
+    <span class="separator">›</span>
+    {% if crumb.url %}
+    <a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a>
+    {% else %}
+    <span>{{ crumb.title }}</span>
+    {% endif %}
+    {% endfor %}
+  </nav>
+  {% endif %}
+  
+  {% if page.title and page.show_title != false %}
+  <h2>{{ page.title }}</h2>
+  {% endif %}
+  
+  {% if page.gallery_intro %}
+  <p class="gallery-intro">{{ page.gallery_intro }}</p>
+  {% endif %}
+  
+  {{ content }}
+  
+  <p class="gallery-credit">
+    All photographs © Steve Babb unless otherwise noted. 
+    Images may be used for educational purposes with attribution to revestment1765.com
+  </p>
+</div>
