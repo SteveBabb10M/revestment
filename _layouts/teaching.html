@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="section-header section-teaching">
+  <div class="section-inner">
+    <h1>Teaching Resources</h1>
+    <p class="section-subtitle">Activities and materials for Manx schools and families</p>
+  </div>
+</div>
+
+<div class="page-content">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span class="separator">›</span>
+    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+    <span class="separator">›</span>
+    {% if page.key_stage == 'ks2' %}
+    <a href="{{ '/teaching/ks2/' | relative_url }}">Key Stage 2</a>
+    {% elsif page.key_stage == 'ks3' %}
+    <a href="{{ '/teaching/ks3/' | relative_url }}">Key Stage 3</a>
+    {% endif %}
+    {% if page.title %}
+    <span class="separator">›</span>
+    <span>{{ page.title }}</span>
+    {% endif %}
+  </nav>
+  
+  <div class="resource-header">
+    {% if page.key_stage %}
+    <span class="ks-badge {{ page.key_stage }}">{{ page.key_stage | upcase }}</span>
+    {% endif %}
+    
+    <h1>{{ page.title }}</h1>
+    
+    {% if page.description %}
+    <p class="resource-description">{{ page.description }}</p>
+    {% endif %}
+    
+    {% if page.pdf_url %}
+    <p class="resource-download">
+      <a href="{{ page.pdf_url | relative_url }}" class="btn btn-download">Download PDF</a>
+    </p>
+    {% endif %}
+  </div>
+  
+  {{ content }}
+</div>

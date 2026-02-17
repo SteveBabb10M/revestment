@@ -1,0 +1,178 @@
+// ==============================================
+// BASE STYLES
+// ==============================================
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-font-size;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-body;
+  font-size: 1rem;
+  line-height: $base-line-height;
+  color: $text-grey;
+  background-color: $white;
+}
+
+// ---------------------------------------------
+// TYPOGRAPHY
+// ---------------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+  color: $near-black;
+  margin-top: $spacing-large;
+  margin-bottom: $spacing-unit;
+  line-height: 1.3;
+}
+
+h1 { font-size: $size-h1; }
+h2 { font-size: $size-h2; }
+h3 { font-size: $size-h3; }
+h4 { font-size: $size-h4; }
+
+p {
+  margin-top: 0;
+  margin-bottom: $spacing-unit;
+}
+
+a {
+  color: $teal;
+  text-decoration: none;
+  
+  &:hover {
+    color: $teal-dark;
+    text-decoration: underline;
+  }
+}
+
+blockquote {
+  margin: $spacing-unit 0;
+  padding: $spacing-unit $spacing-unit $spacing-unit $spacing-large;
+  border-left: 4px solid $gold;
+  background-color: $warm-white;
+  font-style: italic;
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  cite {
+    display: block;
+    margin-top: $spacing-small;
+    font-style: normal;
+    font-size: $size-small;
+    color: $slate-grey;
+  }
+}
+
+// ---------------------------------------------
+// LISTS
+// ---------------------------------------------
+
+ul, ol {
+  margin: 0 0 $spacing-unit 0;
+  padding-left: $spacing-large;
+}
+
+li {
+  margin-bottom: $spacing-small;
+}
+
+// ---------------------------------------------
+// IMAGES
+// ---------------------------------------------
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure {
+  margin: $spacing-unit 0;
+  
+  figcaption {
+    margin-top: $spacing-small;
+    font-size: $size-small;
+    color: $slate-grey;
+    font-style: italic;
+  }
+}
+
+// ---------------------------------------------
+// TABLES
+// ---------------------------------------------
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: $spacing-unit 0;
+}
+
+th, td {
+  padding: $spacing-small;
+  text-align: left;
+  border-bottom: 1px solid lighten($slate-grey, 30%);
+}
+
+th {
+  font-weight: 600;
+  color: $near-black;
+}
+
+// ---------------------------------------------
+// CODE
+// ---------------------------------------------
+
+code {
+  font-family: $font-mono;
+  font-size: 0.9em;
+  background-color: $slate-grey-light;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: $slate-grey-light;
+  padding: $spacing-unit;
+  overflow-x: auto;
+  border-radius: 4px;
+  
+  code {
+    background: none;
+    padding: 0;
+  }
+}
+
+// ---------------------------------------------
+// UTILITIES
+// ---------------------------------------------
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }
+.mt-1 { margin-top: $spacing-unit; }
+.mb-1 { margin-bottom: $spacing-unit; }
+.mt-2 { margin-top: $spacing-large; }
+.mb-2 { margin-bottom: $spacing-large; }
