@@ -11,14 +11,15 @@
 // HOME PAGE SPECIFIC STYLES
 // ==============================================
 
-.home-hero {
+Here's the replacement:
+scss.home-hero {
   background-color: $near-black;
   background-image: url('../images/rev_index_header.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: $white;
-  padding: $spacing-large * 3 $spacing-unit;
+  padding: 18rem $spacing-unit 3rem;
   text-align: center;
   position: relative;
   
@@ -30,7 +31,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.25);
+   background: rgba(0, 0, 0, 0.1);
     z-index: 0;
   }
   
@@ -54,7 +55,7 @@
   .hero-subtitle {
     font-size: 1.3rem;
     opacity: 0.95;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto $spacing-large;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   }
@@ -234,8 +235,8 @@
   }
   
   .home-hero {
-    padding: $spacing-large * 2 $spacing-unit;
-  }
+    padding: 12rem $spacing-unit 2rem;
+}
   
   .home-hero h1 {
     font-size: 2rem;
