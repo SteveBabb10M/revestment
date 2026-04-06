@@ -12,15 +12,39 @@
 // ==============================================
 
 .home-hero {
-  background-color: $teal;
+  background-color: $near-black;
+  background-image: url('../images/rev_index_header.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: $white;
-  padding: $spacing-large * 2 $spacing-unit;
+  padding: $spacing-large * 3 $spacing-unit;
   text-align: center;
+  position: relative;
+  
+  // Light overlay for the bright centre of the arch
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 0;
+  }
+  
+  // All content sits above the overlay
+  > * {
+    position: relative;
+    z-index: 1;
+  }
   
   h1 {
     color: $white;
     font-size: 2.8rem;
     margin: 0 0 $spacing-small 0;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
     
     span {
       color: $gold;
@@ -29,9 +53,10 @@
   
   .hero-subtitle {
     font-size: 1.3rem;
-    opacity: 0.9;
+    opacity: 0.95;
     max-width: 600px;
     margin: 0 auto $spacing-large;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   }
   
   .hero-buttons {
@@ -107,12 +132,109 @@
 }
 
 // ==============================================
+// SAMPLE CHAPTER
+// ==============================================
+
+.sample-intro {
+  font-style: italic;
+  color: $slate-grey;
+  font-size: 1.05rem;
+  margin-bottom: $spacing-large;
+}
+
+.sample-cta {
+  background-color: $warm-white;
+  padding: $spacing-unit $spacing-large;
+  border-radius: 4px;
+  margin-top: $spacing-large;
+  
+  p {
+    margin: $spacing-small 0;
+  }
+}
+
+.sample-image {
+  margin: $spacing-large 0;
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  figcaption {
+    font-size: $size-small;
+    color: $slate-grey;
+    margin-top: $spacing-small;
+    font-style: italic;
+  }
+}
+
+// ==============================================
+// CONTACT FORM
+// ==============================================
+
+.contact-form {
+  max-width: 560px;
+  margin: $spacing-large 0;
+  
+  .form-group {
+    margin-bottom: $spacing-unit;
+  }
+  
+  label {
+    display: block;
+    font-family: $font-body;
+    font-weight: 600;
+    font-size: $size-small;
+    color: $text-grey;
+    margin-bottom: $spacing-small * 0.5;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: $spacing-small;
+    font-family: $font-body;
+    font-size: 1rem;
+    color: $text-grey;
+    background-color: $white;
+    border: 1px solid darken($warm-white, 12%);
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+    
+    &:focus {
+      outline: none;
+      border-color: $teal;
+    }
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  select {
+    appearance: auto;
+  }
+  
+  .btn {
+    margin-top: $spacing-small;
+  }
+}
+
+// ==============================================
 // RESPONSIVE ADJUSTMENTS
 // ==============================================
 
 @media (max-width: 600px) {
   html {
     font-size: 16px;
+  }
+  
+  .home-hero {
+    padding: $spacing-large * 2 $spacing-unit;
   }
   
   .home-hero h1 {

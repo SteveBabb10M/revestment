@@ -19,11 +19,11 @@ This is a Manx book, written from the Manx perspective, for readers who have nev
 
 ## The Three Parts
 
-**Part I: Before** — The world that existed before Parliament intervened. The ancient parliament at Tynwald. The Deemsters and their herring-bone oath. The Lords of Mann — Stanleys and Atholls — who governed for three centuries. Bishop Wilson's fifty-seven-year episcopate. The fishing economy, the smuggling trade, the families who made their living from the sea.
+**Part I: An Ancient Island Nation** — The world that existed before Parliament intervened. Seven chapters tracing the island's story from its earliest sacred landscape through the Norse sea kingdom, the Stanleys, Bishop Wilson's fifty-seven-year episcopate, the smuggling trade, and the families who made their living from the sea. The Deemsters and their herring-bone oath. Tynwald in full operation. A working nation, governed by its own laws.
 
-**Part II: The Seizure** — How Parliament took the island. The constitutional mechanism. The garrison deployment. The Act itself — and what it didn't say. The voices that were silenced, the petition that was ignored, the Keys stripped of their power to resist.
+**Part II: By George, He's Got It** — How Parliament took the island. The lords who governed from overseas and the vulnerability their distance created. The East India Company's pressure campaign. The constitutional mechanism, the garrison deployment, the Act itself - and what it didn't say. The voices that were silenced, the petition that was ignored, the Keys stripped of their power to resist. And Parliament's own confession, extracted across forty years of debate.
 
-**Part III: After** — What happened next. The revenue that collapsed to £530. The harbours that rotted. The families who left — one-third of the population within a generation. The language that began its decline. The petitions to Parliament that were met with silence. And, eventually, the survival. *Quocunque Jeceris Stabit* — whichever way you throw me, I will stand.
+**Part III: Paid and Paying Still** — What it cost, and what endured. The revenue that collapsed to £530. The harbours that rotted. The families who left - one-third of the population within a generation. The men who served in Britain's wars without recognition. The language that was declared dead and refused to stay dead. The petitions to Parliament that were met with silence. And the survival - *Quocunque Jeceris Stabit*, whichever way you throw me, I will stand.
 
 ## The Evidence
 
@@ -42,3 +42,5 @@ The Manx people deserve to have their history documented with the same rigour ap
 ---
 
 *Publication details to follow.*
+
+*[Read the Prologue](/about/sample-chapter/) — the opening of the book, free to read on this site.*
