@@ -15,12 +15,16 @@
   background-color: $near-black;
   background-image: url('../images/rev_index_header.webp');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   color: $white;
-  padding: 35rem $spacing-unit 3rem;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 $spacing-unit 3rem;
   text-align: center;
-  position: relative;
+  position: relative
   
   // Light overlay for the bright centre of the arch
   &::before {
@@ -234,7 +238,8 @@
   }
   
   .home-hero {
-    padding: 12rem $spacing-unit 2rem;
+    height: 70vh;
+    padding: 0 $spacing-unit 2rem;
 }
   
   .home-hero h1 {
