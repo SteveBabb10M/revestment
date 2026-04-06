@@ -15,105 +15,105 @@ Endnotes are organised by chapter. Select a part below, then navigate to the rel
 
 ---
 
-## Part I: Before
+## Part I: An Ancient Island Nation
 
-The world that existed before Parliament intervened. Seven chapters covering the ancient constitution, the Lords of Mann, Bishop Wilson's episcopate, the smuggling economy, and the gathering storm.
+The world that existed before Parliament intervened. Seven chapters covering the physical island, the Norse and Celtic heritage, the Stanleys, the Civil War, Bishop Wilson, the smuggling trade, and the Manx people who built a working nation.
 
 <ul class="resource-list">
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-1/chapter-1/' | relative_url }}">Chapter 1: The Hill</a></h4>
-<p>Tynwald, the ancient parliament, the constitutional foundations</p>
+<h4><a href="{{ '/endnotes/part-1/chapter-1/' | relative_url }}">Chapter 1: Before 979</a></h4>
+<p>The physical island, the keeills, the spirit world, Manannán — the deep ground before the first recorded Tynwald</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-1/chapter-2/' | relative_url }}">Chapter 2: The Lords</a></h4>
-<p>The Stanleys and the Atholls — three centuries of lordship</p>
+<h4><a href="{{ '/endnotes/part-1/chapter-2/' | relative_url }}">Chapter 2: 979–1405</a></h4>
+<p>Tynwald, the Norse accommodation, Godred Crovan, the sea kingdom, Rushen Abbey, the collapse — from the first assembly to the Stanley grant</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-1/chapter-3/' | relative_url }}">Chapter 3: The Spirit</a></h4>
-<p>Bishop Wilson, the keeills, the sacred landscape</p>
+<h4><a href="{{ '/endnotes/part-1/chapter-3/' | relative_url }}">Chapter 3: 1405–1651</a></h4>
+<p>The Stanleys, Bosworth, the Great Stanley, the 1417 codification, the Keys — and Illiam Dhone facing the choice</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-1/chapter-4/' | relative_url }}">Chapter 4: The Trade</a></h4>
-<p>The running trade — smuggling, merchants, the economy</p>
+<h4><a href="{{ '/endnotes/part-1/chapter-4/' | relative_url }}">Chapter 4: 1651–1703</a></h4>
+<p>Illiam Dhone's surrender, the trial, Hango Hill, Bishop Wilson's arrival, the Act of Settlement</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-1/chapter-5/' | relative_url }}">Chapter 5: The People</a></h4>
-<p>Ordinary Manx life — fishing, farming, families</p>
+<h4><a href="{{ '/endnotes/part-1/chapter-5/' | relative_url }}">Chapter 5: 1703–1750</a></h4>
+<p>The trade as a system — smuggling, the Book of Rates, customs entries, Wilson's episcopate, the moral dimension</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-1/chapter-6/' | relative_url }}">Chapter 6: The Families</a></h4>
-<p>The great Manx families — Christians, Moores, the Deemster dynasties</p>
+<h4><a href="{{ '/endnotes/part-1/chapter-6/' | relative_url }}">Chapter 6: 1750–1764</a></h4>
+<p>Ordinary Manx life, the cosmopolitan harbours, George Moore and the Letter Books, the family web — Christians, Quayles, Taubmans</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-1/chapter-7/' | relative_url }}">Chapter 7: The Gathering Storm</a></h4>
-<p>London's attention arrives — the pressures building toward 1765</p>
+<h4><a href="{{ '/endnotes/part-1/chapter-7/' | relative_url }}">Chapter 7: 1764</a></h4>
+<p>Tynwald in full operation — the Deemsters, breast law, the herring-bone oath, the Keys' resolution, and the silencing</p>
 </div>
 </li>
 </ul>
 
 ---
 
-## Part II: The Seizure
+## Part II: By George, He's Got It
 
-How Parliament took the island. Six chapters covering the constitutional mechanism, the Act itself, the garrison, and the immediate aftermath.
+How Parliament took the island. Six chapters covering the lords who governed from overseas, the East India Company pressure, the constitutional mechanism, the Act itself, the garrison, and the immediate aftermath.
 
 <ul class="resource-list">
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-2/chapter-8/' | relative_url }}">Chapter 8: The Constraint</a></h4>
-<p>The pressure on the Duke — how Parliament forced the sale</p>
+<h4><a href="{{ '/endnotes/part-2/chapter-8/' | relative_url }}">Chapter 8: The Lords</a></h4>
+<p>The Stanleys and Atholls as custodians — three centuries of lordship at a distance, the 1663 constitutional analysis, the vulnerability it created</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
-<h4><a href="{{ '/endnotes/part-2/chapter-9/' | relative_url }}">Chapter 9: The Manoeuvre</a></h4>
-<p>The parliamentary process — eight sitting days</p>
+<h4><a href="{{ '/endnotes/part-2/chapter-9/' | relative_url }}">Chapter 9: The Gathering Storm</a></h4>
+<p>London watching — the East India Company, the Impartial Enquiry, the Mischief Act, the forty-year narrowing toward 1765</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
 <h4><a href="{{ '/endnotes/part-2/chapter-10/' | relative_url }}">Chapter 10: The Act</a></h4>
-<p>5 Geo III, c. 26 — what it said and what it didn't</p>
+<p>The Duke coerced, the Keys silenced, Norton drafting law — seventeen days from introduction to Royal Assent</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
 <h4><a href="{{ '/endnotes/part-2/chapter-11/' | relative_url }}">Chapter 11: The Transfer</a></h4>
-<p>The garrison arrives — troops at Douglas, ceremony at Castletown</p>
+<p>The ceremony and the occupation — troops at Douglas, bayonets at Castletown, Wood's "not to oppress"</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
 <h4><a href="{{ '/endnotes/part-2/chapter-12/' | relative_url }}">Chapter 12: A New King, The King</a></h4>
-<p>The custodianship split — Crown and Duke, neither responsible</p>
+<p>Crown rule in practice — revenues to Treasury, the Tynwald silence, the custodianship split, neither party responsible</p>
 </div>
 </li>
 <li class="resource-item">
 <div class="resource-content">
 <h4><a href="{{ '/endnotes/part-2/chapter-13/' | relative_url }}">Chapter 13: The Settlement Begins</a></h4>
-<p>Parliament's confession — the debates of 1790 and 1805</p>
+<p>Parliament's confession — the debates of 1790 and 1805, the Commissioners' report, the admission of what had been done</p>
 </div>
 </li>
 </ul>
 
 ---
 
-## Part III: After
+## Part III: Paid and Paying Still
 
-What happened next. Five chapters covering the devastation, the service, the endurance, and the survival.
+What happened next. Five chapters covering the devastation, the military service, the endurance, the diaspora, and the survival.
 
 <ul class="resource-list">
 <li class="resource-item">
