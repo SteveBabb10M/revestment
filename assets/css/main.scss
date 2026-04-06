@@ -11,8 +11,7 @@
 // HOME PAGE SPECIFIC STYLES
 // ==============================================
 
-Here's the replacement:
-scss.home-hero {
+.home-hero {
   background-color: $near-black;
   background-image: url('../images/rev_index_header.webp');
   background-size: cover;
@@ -31,7 +30,7 @@ scss.home-hero {
     left: 0;
     right: 0;
     bottom: 0;
-   background: rgba(0, 0, 0, 0.1););
+   background: rgba(0, 0, 0, 0.1);
     z-index: 0;
   }
   
