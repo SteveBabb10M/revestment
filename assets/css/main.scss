@@ -24,73 +24,71 @@
   justify-content: flex-end;
   padding: 0 $spacing-unit 3rem;
   text-align: center;
-  position: relative
-  
-  // Light overlay for the bright centre of the arch
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-   background: rgba(0, 0, 0, 0.1);
-    z-index: 0;
-  }
-  
-  // All content sits above the overlay
-  > * {
-    position: relative;
-    z-index: 1;
-  }
-  
-  h1 {
-    color: $white;
-    font-size: 2.8rem;
-    margin: 0 0 $spacing-small 0;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-    
-    span {
-      color: $gold;
-    }
-  }
-  
-  .hero-subtitle {
-    font-size: 1.3rem;
-    opacity: 0.95;
-    max-width: 650px;
-    margin: 0 auto $spacing-large;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  }
-  
-  .hero-buttons {
-    display: flex;
-    gap: $spacing-unit;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .btn-primary {
-    background-color: $gold;
-    color: $near-black;
-    
-    &:hover {
-      background-color: darken($gold, 10%);
-    }
-  }
-  
-  .btn-secondary {
-    color: $white;
-    border-color: $white;
-    
-    &:hover {
-      background-color: $white;
-      color: $teal;
-    }
-  }
+  position: relative;
 }
 
-.home-intro {
+.home-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+.home-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.home-hero h1 {
+  color: $white;
+  font-size: 2.8rem;
+  margin: 0 0 $spacing-small 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.home-hero h1 span {
+  color: $gold;
+}
+
+.home-hero .hero-subtitle {
+  font-size: 1.3rem;
+  opacity: 0.95;
+  max-width: 650px;
+  margin: 0 auto $spacing-large;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.home-hero .hero-buttons {
+  display: flex;
+  gap: $spacing-unit;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-hero .btn-primary {
+  background-color: $gold;
+  color: $near-black;
+}
+
+.home-hero .btn-primary:hover {
+  background-color: darken($gold, 10%);
+}
+
+.home-hero .btn-secondary {
+  color: $white;
+  border-color: $white;
+}
+
+.home-hero .btn-secondary:hover {
+  background-color: $white;
+  color: $teal;
+}
+  
+ .home-intro {
   max-width: $max-width;
   margin: 0 auto;
   padding: $spacing-large * 2 $spacing-unit;
@@ -237,10 +235,10 @@
     font-size: 16px;
   }
   
-  .home-hero {
+   .home-hero {
     height: 70vh;
     padding: 0 $spacing-unit 2rem;
-}
+  }
   
   .home-hero h1 {
     font-size: 2rem;
@@ -250,6 +248,7 @@
     font-size: 1.1rem;
   }
   
+   
   .card-grid {
     grid-template-columns: 1fr;
   }
